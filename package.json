@@ -1,0 +1,20 @@
+{
+  "name": "browsersync-webpack-ssi",
+  "version": "1.0.0",
+  "description": "同webpack-dev-middleware一起使用，在browsersync中支持ssi。",
+  "main": "index.js",
+  "keywords": [
+    "browsersync",
+    "webpack",
+    "middleware",
+    "ssi",
+    "webpack-dev-middleware",
+    "include",
+    "apache"
+  ],
+  "author": "colorpeach@live.cn",
+  "license": "MIT",
+  "dependencies": {
+    "node-ssi": "^0.3.2"
+  }
+}
