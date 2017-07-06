@@ -75,6 +75,22 @@ gulp.task('serve', () => {
 });
 ```
 
+如果需要结合`webpack-dev-server`使用，配置如下：
+
+```
+const server = new WebpackDevServer(compiler, {
+	stats: {
+		colors: true
+	},
+	setup: function(app, _this) {
+		app.use(browsersyncWebpackSsi(_this.middleware, {
+			baseDir: path.join(__dirname, '../src/'),
+			encoding: 'utf-8'
+		}));
+	}
+});
+```
+
 ## 参数
 
 * webpackDevMiddlewareInstance：传入webpack-dev-middleware实体

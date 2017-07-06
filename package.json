@@ -8,6 +8,7 @@
     "webpack",
     "middleware",
     "ssi",
+    "webpack-dev-server",
     "webpack-dev-middleware",
     "include",
     "apache"
