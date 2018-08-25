@@ -1,5 +1,7 @@
 ## browsersync-webpack-ssi
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/colorpeach/browsersync-webpack-ssi.svg)](https://greenkeeper.io/)
+
 ## 安装
 
 ```
